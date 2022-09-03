@@ -5,7 +5,7 @@ import java.util.Random;
 public class Program {
 
     public static int generateRandomAge(){
-        Random rnd = new Random(System.currentTimeMillis());
+        Random rnd = new Random();
         int number = 0 + rnd.nextInt(10 - 0 + 1);
         System.out.println(number);
         return number;
